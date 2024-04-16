@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Hackthon Application',
+      title: 'Graph-e-thon Application',
       home: HomeScreen(),
     );
   }
@@ -21,6 +21,10 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      body: Center(
+        child: Text('Welcome to Graph-e-thon'),
+      ),
+    );
   }
 }
